@@ -1,0 +1,123 @@
+<0416>
+
+자바study
+1. 용어,개념 이해-암기
+2. 반복숙달훈련
+3. 코드작성훈련(1차:책보고 2차:책덮고)
+
+one drive
+dropbox
+로긴>폴더생성>java_works(작업공간)
+
+pc>사용자>내이름>java_works
+작업이력 클라우드에 저장(githubs 이력제출)
+
+new>java project 만들기 edujava
+패키지만들기 javacode
+패키지에 클래스만들기 Test2(파일이름)
+
+결과출력 단축어 sysout+ctrl+space : system.out.println자동생성됨
+
+메모리 생각하면서 할당량부여하고 변수설정
+
+
+
+<0417>
+// 한줄 주석
+/* 여러줄 주석처리 */
+주석달고 
+한줄지우기 ctrl D
+소스에서 클래스만들때 패키지 이름 설정하면 됨
+
+sysin표준입력장치(키보드로부터 입력받음)
+sysout표준출력장치(모니터)
+ctrl shift O : import
+ctrl F11 : run
+
+ctrl shift /
+ctrl shift c
+전체주석
+
+ctrl shift f로 괄호 줄맞춤
+
+class만들때 첫글자는 꼭 대문자
+소문자로 했을땐 본문에서 바꾸고 빨간줄 갖다대면 rename클릭
+
+루프할때 디버깅 알아야함(한줄씩 실행하면서 어떻게 동작하는지 볼수있음. 버그찾기)
+디버깅 시 break 포인트 지점 설정해야함 줄옆에서 더블클릭 후 벌레모양>F6(디버깅)
+resume버튼:다음 디버깅지점으로 가라
+terminate:종료
+우측상단 java버튼으로 작업환경 왔다갔다
+
+오늘할일: edu 패키지 만들어서 test : class만들면서 패키지 설정하면 바로 패키지-클래스 세트 만들어짐
+이클립스 글자 크기조절?
+case를 if문으로 변경
+while문에서 짝수값만 출력하기
+test27에 scanner넣어보기
+test29
+
+
+
+<0418>
+workspace 작업공간
+c:\java_works/edu(프로젝트) 폴더 만들어서 one-drive나 dropbox에 넣어서 동기화
+프로젝트 여러개 만들수있음
+
+Q.문제풀기
+165p 자릿수 맞추기(n<10일때 n추가해서 출력)
+166p 대각선만 출력(i=j일때만)
+168p 대각선 아래쪽만 출력
+int[][]a=new int[3][4];
+int[][]b=new int[3][4];
+int[][]c=new int[3][4]; 만들어서 행렬더하기
+Random rnol = new Random();
+a[i][j]=rnol.nextInt(100); // 두줄 : 난수생성
+
+전체선택>ctrl i 정렬
+
+
+<0419>
+main: JVM(Java Virtual Machine) 에서 코드실행 시작해야할 곳 entrypoint(진입점). main없으면 프로그램 실행이 안되고 객체지정만 가능
+다른 클래스에서 메서드 호출해서 사용 : .메서드명
+
+148p 접근제한자
+class Test{ //class
+	String name; //field
+	void getName(){} //method
+} //구조 기억할것
+
+bin: binary 2진 파일 실행파일들어있음
+bin/com/...파일 경로 불러오면 볼수있음
+
+같은 패키지= 같은 디렉토리(폴더)
+다른 패키지에서 쓰려면 import 해줘야함. 안된상태로 호출하면 에러뜸(빨간줄)>어떤걸 쓸지 클릭해서 import적용
+
+반환값
+아무것도 안써있으면 return;
+
+java base모드>패키지중 선택해서 참고
+또는
+이클립스에서 windows>show view>other>java>java doc> 창 뜸>궁금한 곳 클릭
+찾아보고싶은곳에서 커서대코 ctrl > 클릭> 맨위에 나오는거 docs사이트에서 찾기
+
+<0422>
+6장 반복읽기
+
+stack영역 : local 변수를 저장
+스택종료되면 스택에서만 사라짐. heap에 할당된건 남아있음
+
+Armor a[] = new Armor[10]; a는 스택영역에 있고 만들어진 new Armor[10] 배열은 heap에 있음
+
+Class Count{
+static int totalCount;
+int num;
+}
+count c = new Count();
+
+num객체 인스턴스는 heap영역에
+참조변수 C는 stack영역에
+static totalCount 는 소스코드영역(메서드영역)에 있음(시작할때 만들어지고 유지됨)
+
+private여서 num에 에러> getter사용??
+
+overloading : 같은 기호에 다른의미를 부여하는것

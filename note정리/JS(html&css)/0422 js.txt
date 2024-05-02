@@ -1,0 +1,213 @@
+폴더 만들기>vs code열어서 오픈>폴더 선택>index.html 파일만들기
+<시작태그>태그는 html명령>브라우저가 실행</종료태그>
+서비스주소 127.0.0.1 로컬주소라서 나만 볼 수 있음>서비스 호스팅하면 누구나 볼 수 있음
+
+html>돈트리구조
+css: 선택자(셀렉터 중요) 속성:값
+
+https://github.com/
+https://www.w3schools.com/
+https://developer.mozilla.org/ko/docs/Web/HTML
+
+https://htmlcheatsheet.com/css/
+https://devhints.io/css
+
+div(블록태그) span(인라인태그) 차이 : 줄이 바뀌냐의 차이 
+
+경로잡기(절대경로 사용금지)
+./ : 현재폴더(같은위치의 폴더나 파일 선택시 생략가능)
+../ : 상위폴더
+
+*전체태그 초기화
+<body>안에 <main>쓰면 됨
+
+태그셀렉터
+div class쓸땐 css에서 .(css셀렉터)
+div id쓸땐 #(id 셀렉터)
+
+깃허브 설치 git-scm.com 
+넥스트>>>window console 디폴트선택>>>넥스트
+깃에서 버전관리. 깃은 로컬에서 쓰는것
+cmd
+git --version 버전확인
+git config --list 설정확인
+git config --global user.name "choikoya" //유저네임 초기설정
+git config --global user.email choikoyaaa@gmail.com //유저메일 초기설정
+git config --list 다시 설정됐는지 확인
+
+
+git init
+git add . //파일더하기
+git commit -m "v1" 
+git add index.html //수정후 올림
+git commit -m "v2" //버전2개 생김
+
+git log //버전확인
+git checkout + commit옆의 숫자 붙임//다시 버전 돌아가고싶을때
+
+위에까진 로컬에서 하는것
+
+이제 github에 있는것과 연결
+
+https://github.com/choikoya/k7_js.git
+
+
+
+
+
+리액트는 예제중심 수업진행
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<0423>
+
+
+
+<로컬-원격지-집>
+
+
+.git 폴더 날리고 다시 index, css파일만 폴더에 남김
+
+git허브랑 관계x git으로 버전관리 하기
+git add 
+git commit -m "v1"
+커밋단위 신경써서 깃허브에 올리기
+
+cmd창에 cd 절대경로
+dir 파일확인
+cls 화면지움
+
+git init
+탐색기에 .git 숨김폴더 생성 확인
+
+git add .
+
+git commit -m "v1"
+
+git log
+버전 만들어졌음
+커밋번호 생성됨
+브랜치 master로 되어있는데 main으로 변경하기
+
+git branch
+git branch -m master main (브랜치 명 변경하기)
+git log 확인
+
+git status 상태확인 (modfile있다고 뜸)
+
+git add index.html 바꾼파일만 올리기
+
+git commit -m "v2" (v2올리기)
+
+git checkout 커밋값붙여넣기 (v바꿔볼수있음)
+
+git checkout main (다시 main으로)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+github 레파지토리와 로컬pc 폴더 매칭
+git remote add origin https://github.com/choikoya/k7_js.git
+
+git branch -M main 
+(main으로 갈거다)
+
+git push -u origin main
+로컬에 있는걸 서버로 푸시
+
+깃허브 새로고침하면 remote 올린거 다 보임
+
+
+깃허브 사용문법(깃허브 마크다운)
+https://gist.github.com/ihoneymon/652be052a0727ad59601
+
+git hub에서 파일수정
+git pull 해서 땡겨오기
+(push/pull로 올리고 내리고 가능)
+
+
+
+
+
+집에서 폴더tm 생성후
+cmd에서
+git clone 깃허브에서 레파지토리 코드누르면 나오는 주소복사 >하면 그대로 폴더 복사됨
+
+C:\tm>cd k7_js
+복사한 폴더경로로 들어감
+dir로 파일 확인
+
+파일수정하고
+git add.
+git commit -m "README 수정"
+git push (수정됨 파일 올라감)
+git log (main이 HEAD를 가리키는 마지막 커밋 상태)
+
+
+학교(로컬)에서 
+작업폴더경로가서
+git pull 하면 파일 받아짐
+
+vscode에서 turn on cloud change>상단 github로그인
+
+
+전체선택 후> shift alt f 줄맞춤
+
+
+git add
+git commti
+git push
+
+한번에 commit & push 버튼
+
+github.com/pnumin/k7_js
+https://github.com/pnumin/K-digital-2024-7
+
+포크누르기
+
+
+
+
+vs에서 폴더>파일 html js만들고
+! tab
+절대경로 상대경로 체크(절대경로 사용금지)
+
+
+
+01.html>자바스크립트 페이지 만들고 하이퍼링크 연결
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+<240415>
+
+vscode 개발환경구성(설정)
+샘플예제(크롬기준)
+
+크롬을 기본 브라우저로 설정> 설정 초기화(불필요한 플러그인 및 설정 해제)
+
+
+
+win x > 앱 및 기능 > code 삭제 > C:\Users\{user]\.vscode폴더도 삭제
+vscode(텍스트편집기)설치 > 체크화면에서 다 체크하고 설치> 체크하고 yes
+>확장플러그인 설정(코드편집기로 변경됨) 
+테트리스모양>live server 인스톨>auto rename tag 설치>html to css설치 > html css support 설치 > code runner 설치
+work폴더만들고 hello.html으로 new file만들고 !엔터로 기본구조 불러오기
+사이드바 하단 설정 > 
+루프백주소 ip대역 127.0.0.1은 나만 = localhost
+head에는 설정,타이틀만
+SEO 검색최적화 중요(구글검색되게하는것)-title 시맨틱태그
+body에는 실제 화면에 보이는 본문(매거진샷)
+
+
+<240416>
+plato 실습게시판 > 샘플만들기
+html구조:반복되는 부분은 없다고 생각>한페이지 전체에 적용될때는 시맨틱태그(div의 집합)/div 그룹으로 묶을지 구조 결정(이미지, 폼, 링크는 따로 떼어내서 별도 처리/나머지는 텍스트)
+work폴더 안에>01_card(프로젝트)>statics(정적폴더)or assets>css/js/img(정적파일) 폴더 각각 만들기(폴더링)
+			       index.html(서버)(statics폴더랑 같은 위치에)
+statics폴더 있는곳에서 우클릭>vscode열기(혹은 최상위폴더에서 바로 vscode열어서 그안에서 폴더링해도 됨)>!엔터로 기본구조 불러오기( index.html만들기)
+개인 무료 이미지 unsplash>img에 사진 저장
+code>css>style.css만들어서 설정 초기화하기> index 헤드에 style.css링크걸기
+
+
+무료이미지 https://unsplash.com/
+https://www.lipsum.com/
+https://fontawesome.com/
+https://cdnjs.com/libraries/font-awesome
+이모지 win+.
+font awesome 이모지 쓰려고 할땐 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css 가 헤드에 링크되어 있어야 함
+그리고 사이트 이모지 태그를 본문(body)에 붙임<i class...>
+
+
+https://developer.mozilla.org/ko/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model#%EB%B0%94%EA%B9%A5_%EC%97%AC%EB%B0%B1%EB%A7%88%EC%A7%84_%EC%98%81%EC%97%AD
+https://www.figma.com/
+https://dribbble.com/
+
+더블클릭>f2 동시에 태그이름변경
+
+:root 변수를 선언할 목적으로 쓰는 태그
+
+-- : 내가 선언한 변수
+
+
+포트폴리오3가지준비
+자기소개서
+비지니스사이트
+커머셜사이트
+
+<0418>
+모바일부터 고려하고 pc페이지 만들기(브라우저 랜더링) 
+네비게이션을 모바일 메뉴화(3단 햄버거 메뉴)
+
+About Me폴더만들기
+
+브라우저에서 화면정렬방식 중 Table방식은 옛날방식. m.주소.com인 모바일화면과 동기화가 안되기때문에 지금은 안씀
+현재는 Flex / Grid 써서 정렬
+
+이동 : a태그 / button태그(폼태그라 기능이 더 많음)
+기본 z-index 설정은 1000으로 되어있음. 1로 설정하면 body header container.. 겹겹이 있는 것중 가장 위로 고정 
+css검색시 : mdn css margin(html, js도 mdn 붙여서 검색)
+
+css리셋: 패딩,마진 없애서 초기화. 불필요한 속성삭제. 시각속성 손대는것. 
+
+모바일 pc동시 적용가능한건 flex(주축 변경이 목적) 지원안되는 브라우저는 적용안됨(레이아웃때문에 씀)
+하나짜리 띄울땐 flex쓰나마나 보이는건 똑같지만 안쪽 내부 정렬을 할수있음(장점:위치정렬)
+모바일에서 이미지,텍스트 목록 쭉 띄우는 화면 만들땐 flex보다 grid
+
+폰트(글자체)변경 -시각효과. OS폰트는 사용불가 
+https://fonts.google.com/ 구글폰트>일반적으로 Noto Sans Korean 사용함>get font>다운하지말고 Get Embed code>@import선택>copy code>css꼭대기에 붙임 <style>삭제. 폰트명만 복사해서(+지우고) 쓸곳에 font-family에 갖다붙임
+다운받아쓰면 용량크고 서버가 트래픽 못버팀. 그래서 import로 태그만 갖고와서 씀
+구글폰트 100 400 700 많이 씀 
+
+
+<0419>
+https://tailwindcss.com/
+https://mui.com/
+https://getbootstrap.com/
+
+nav바는 ul태그를 이용해서 만듦
+html보면서 구조잡는 연습 많이
+floating point
+
+to do 만들기
+폼태그(유용,유일) 만들기
+네이버 브라우저 랜더링 기사 볼것
+
+
+developer.mozilla.org 
+
+클래스 설정하고 생성자부터 만들기
+
+https://developer.mozilla.org/ko/docs/Web/CSS/CSS_selectors
+https://getbootstrap.com/
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/System.html
+
+https://plato.pusan.ac.kr/mod/ubboard/my.php
+

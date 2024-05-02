@@ -1,0 +1,49 @@
+flex
+
+유튜브>css flex instagram >코드보기
+인스타그램 만들기
+https://uiux.egovframe.go.kr/guide/index.html
+https://mui.com/
+https://fonts.google.com/icons
+https://tailwindcss.com/
+
+sangkon@pusan.ac.kr
+
+<4/30>
+
+about me 자료 
+어제 화살표 넣는부분 어떻게 조절?
+프론트갈거면 > 프로그래머스 문제풀기
+스벅홈페이지
+
+레쥬메 만들기(1p내)
+경력적기 : x를해서 y해본결과(했더니) z가 향상되었다
+중요한 정보를 가운데놓고 부가적인 걸 왼쪽 가이드로 보여줌
+
+취업준비
+1. 서류 - 이력서(신상정보)/포트폴리오(기술)경력에 많이적기. css로 뭘했고 플렉스 박스를 이용해 뭘했고/자소서(인성)
+2. 면접(단위바꿈) 1:1 등 2:3등 비율의 숫자로 되어있으면 rem/ 픽셀고정되어있으면 %쓰기(%못쓰게하면 rem)
+
+
+html: 문서의구조를결정하여 DOM트리 만드는것>선형/트리(순환/재귀)/그래프
+css: 시각속성변경 MDH/레이아웃(플렉스박스(중요)/Relative&Alsolute + Grid)
+
+
+css:Reset,단위, 픽셀(은 
+단위
+클래스이름
+
+부트스트랩
+https://getbootstrap.com/
+영문판으로 가야함>example에서 navbar fixed가 좋음
+
+1. 구글>cdnjs bootstrap
+>css랑 js랑 가지고 오면 됨
+bootstrap.min.css 
+bootstrap.min.js (바디 아래쪽에 붙임)
+만 복사해서 붙이기
+3. html, jsp, sty 파일 생성
+4. header
+5. 만들고자 하는것과 유사한 템플릿 선정 > 우클릭> 페이지 소스보기 > 바디부터 바디까지 복사(마지막 스크립트 빼고)
+
+

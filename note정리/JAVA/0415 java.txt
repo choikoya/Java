@@ -1,0 +1,22 @@
+https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+JDK x64 Installer 다운로드 설치
+17.0.10 버전확인 : win + r >cmd > java -version
+javac -version
+
+*환경설정
+고급 시스템속성>환경변수>시스템 변수>새로 만들기>변수이름 JAVA_HOME 
+변수값 C:\program Files\java\jdk-17
+시스템 변수>path>JAVA어쩌구 있으면 삭제 > %JAVA_HOME%\bin 새로만들기
+
+https://docs.oracle.com/en/java/javase/17/
+즐겨찾기 java
+
+39p
+c > 연습용 폴더생성> 메모장 Test1.java만들기(생성한 class 이름하고 대소문자까지 똑같아야 함)
+cmd > cd\ > cd java_test 폴더이동> dir로 파일확인>생성된 java소스파일 확인> javac Test1.java 컴파일하고 다시 dir로 파일확인
+.class 실행파일생성된것 확인(컴파일완료된것) > java Test1로 실행하면 내용 뜸(실행파일은 .class 안쳐도 됨)
+한글내용이 보이게 하려면 메모장 저장시 ANSI로 설정
+
+이클립스 설치>주의:설치시 2번째걸로
+C\workspace_java 폴더 생성
+이클립스 실행 후 폴더연결
