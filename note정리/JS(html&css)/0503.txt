@@ -1,0 +1,29 @@
+vscode에서 ES7 React/Redux/GraphQL/React-Native snippets 인스톨
+03폴더>MyDiv.js만들기
+! tab하듯
+rfc tab 하면 funtion안써도 자동으로 나옴(기본뼈대)
+
+터미널에서 ctrl c > 실행종료y
+
+터미널에서 설치 > npm install -D tailwindcss 
+설치됐는지 확인> vs에 packge.json에서 설치됐따고 나옴
+
+테일윈드설정파일만들기> npx tailwindcss init 
+> config파일 만들어졌딷고 뜸
+
+목록에 tailwind.config.js생성된거 확인>content 안에 "./src/**/*.{js,jsx,ts,tsx}" 붙이기
+
+src> index.css > 맨위에 붙여넣기
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+인텔리전스 설치
+vs>extension>tailwind css검색 인스톨
+
+
+터미널에서 ctrl c로 작업 끝내고
+리액트 아이콘 라이브러리 설치 npm install react-icons --save (npm 노드에서 패키지를 깔아주는 명령어)
+
+https://react-icons.github.io/react-icons/ 
+브라우저 아이콘 쓰기

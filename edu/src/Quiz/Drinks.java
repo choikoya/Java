@@ -51,7 +51,7 @@ class Tea extends Drink {
 }
 		
 //-----------------------------------------------
-public class Drinks_07 {
+public class Drinks {
 	public static void main(String[] args) {
 		Drink[] arr = new Drink[5]; 
 		
