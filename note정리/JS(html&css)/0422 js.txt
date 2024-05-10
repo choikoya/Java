@@ -151,7 +151,7 @@ git pull 해서 땡겨오기
 (push/pull로 올리고 내리고 가능)
 
 
-
+수정파일 add > commit > push과정
 
 
 집에서 폴더tm 생성후

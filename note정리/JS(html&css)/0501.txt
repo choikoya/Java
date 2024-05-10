@@ -48,3 +48,81 @@ favicon : 웹브라우저 아이콘
 git remote add origin 주소
 git branch -M main
 git push -u origin main
+
+
+
+
+
+
+
+<0503>
+
+
+vscode에서 ES7 React/Redux/GraphQL/React-Native snippets 인스톨
+03폴더>MyDiv.js만들기
+! tab하듯
+rfc tab 하면 funtion안써도 자동으로 나옴(기본뼈대)
+
+터미널에서 ctrl c > 실행종료y
+
+터미널에서 설치 > npm install -D tailwindcss 
+설치됐는지 확인> vs에 packge.json에서 설치됐따고 나옴
+
+테일윈드설정파일만들기> npx tailwindcss init 
+> config파일 만들어졌딷고 뜸
+
+목록에 tailwind.config.js생성된거 확인>content 안에 "./src/**/*.{js,jsx,ts,tsx}" 붙이기
+
+src> index.css > 맨위에 붙여넣기
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+인텔리전스 설치(tailwind 설치)
+vs>extension>tailwind css검색 인스톨
+
+
+터미널에서 ctrl c로 작업 끝내고
+리액트 아이콘 라이브러리 설치 npm install react-icons --save (npm 노드에서 패키지를 깔아주는 명령어)
+
+https://react-icons.github.io/react-icons/ 
+브라우저 아이콘 쓰기
+
+
+
+<0507>
+인텔리전스 설치(tailwind 설치한거 사용)
+새파일 > rfc 입력 tab키
+
+
+inline-flex p-5 mx-10" 하트랑 떨어짐
+
+chrome 웹 스토어 Chrome Developer Tools 설치
+개발자도구에서 컴포넌트 확인가능
+
+json 데이터 땡기는 방법
+
+
+
+
+<0508>
+일일박스오피스 api 검색(실시간 박스오피스 표 만들기)
+https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
+맨밑 json 클릭
+
+https://www.data.go.kr/ 회원가입(데이터 당겨오기 할때 필요)
+
+vscode readme파일 내용지우고 언제 뭘했는지 업데이트
+
+https://tw-elements.com/docs/standard/data/tables/ 에서 hover 테이블 카피해서 테이블 만들기
+
+
+
+https://jsonformatter.org/json-viewer 
+json 뷰어에서 코드 정렬 후 복사
+
+
+
+<0509>
+
+

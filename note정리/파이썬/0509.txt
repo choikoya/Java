@@ -1,0 +1,70 @@
+*ai데이터분석
+파이썬(코딩)>파이썬 데이터사이언스(AI프로그래밍)>머신러닝(scikit-learn)>딥너링(파이토치)
+
+파이썬 설치
+cmd 터미널에서 python설치됐는지 확인가능
+
+https://www.python.org/
+
+다운로드>
+Looking for a specific release?
+에서 Python 3.9.13 찾아서 클릭>
+맨 밑 Files에서
+Windows installer (64-bit)설치
+
+설치시 체크박스 둘다 체크(add..) 후 install now
+
+터미널>python 입력하면 설치된 버전나오고 바로 실행됨(한줄씩 실행, 출력)
+
+파이썬 책 620p~ vscode 키 설정(단축키) 나옴
+파이썬은 4칸 들여쓰기 해야함
+
+47p vscode 애드온 설치> vscode 톱니바퀴>extensions
+자바IDE와는 다르게 파이썬 라이브러리 이용하려면 애드온 설치해야됨
+
+파이썬 코드 실행
+1. 터미널
+2. vscode
+3. jupyter-notebook(구글 colab 웹버전)
+
+터미널>ctrl z 상위경로로 이동
+
+바탕화면에 pyhon_work폴더 만듦
+vscode로 새파일 생성하고 폴더설정> 내용입력 후 run>터미널 출력
+
+shell 명령어 검색
+cd / : root
+cd 폴더나 파일이름 첫글자+탭키 :자동완성
+
+cmd>폴더경로 들어가서 python hello_world.py 입력하면 파일 내용 출력됨
+
+vscode>
+'hello's python' >에러
+'hello\'s python' > 에러사라짐
+name. 누르면 자동생성 가능한 메서드 나옴
+
+
+
+<0510>
+f1누르고 run code
+백준/프로그래머스 코딩테스트 파이썬으로 연습
+
+드래그>우클릭 rename symbol 이름바꾸면 다 바뀜 f2
+
+alt shift 커서로 복사붙여넣기가능
+ctrl enter 아무때서나 엔터됨
+
+menu>auto save 체크설정
+
+print(type(변수명)) :타입체크
+
+구글 python doc str 검색(공식문서)
+
+alt shift 커서 복사이동
+alt 커서 이동
+
+검색방법 python cod built in funtion
+
+연습문제,
+input 덧셈구하기
+
